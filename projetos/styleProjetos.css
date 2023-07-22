@@ -1,0 +1,82 @@
+@font-face{
+    font-family: Roboto-Mono;
+    src: url(../Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto-Mono;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #231FFF;
+    margin: 0px 10px;
+}
+
+nav a{
+    margin: 10px 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projetos{
+    width: 554px;
+    height: 227px;
+    border: 1px solid #231FFF;
+    border-radius: 30px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projetos h3{
+    font-size:24px;
+    margin-left: 3%;
+}
+
+.projetos p{
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+.projetos button{
+    width: 83px;
+    height: 36px;
+    background: #231FFF;
+    border-radius: 10px;
+    color: #fff;
+    border: 0px;
+    /*margin-top: 4%;
+    margin-left: 80%;*/
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
+.projetos button:hover{
+    cursor: pointer;
+    background: #1a17b5;
+}
+
+@media(max-width: 1000px){
+
+    nav{
+        justify-content: center;
+    }
+
+    .projetos{
+        width: 90%;
+    }
+
+    .projetos button{
+        margin-left: 70%;
+    }
+}

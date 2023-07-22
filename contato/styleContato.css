@@ -1,0 +1,72 @@
+@font-face{
+    font-family: Roboto-Mono;
+    src: url(../Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto-Mono;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #231FFF;
+    margin: 0px 10px;
+}
+
+nav a{
+    margin: 10px 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+container{
+    display: flex;
+    justify-content: center;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.contatos img{
+    height: 307px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.contatos h1{
+    color: #231FFF;
+    margin: 56px 0px 0px 0px;
+    font-size: 32px;
+}
+
+.contatos p{
+    margin: 0px;
+    font-size: 24px;
+}
+
+@media(max-width: 1000px){
+
+    nav{
+        justify-content: center;
+    }
+
+    container{
+        margin: 10px;
+    }
+
+    .contatos h1{
+        font-size: 25px;
+    }
+
+    .contatos p{
+        font-size: 20px;
+    }
+
+}

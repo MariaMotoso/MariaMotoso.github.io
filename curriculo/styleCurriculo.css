@@ -1,0 +1,138 @@
+@font-face{
+    font-family: Roboto-Mono;
+    src: url(../Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto-Mono;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #231FFF;
+    margin: 0px 10px;
+}
+
+nav a{
+    margin: 10px 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+container{
+    display: flex;
+}
+
+.container1{
+    justify-content: space-evenly;
+}
+
+.container2{
+    justify-content: space-around;
+}
+
+.perfil{
+    margin-top: 4%;
+    height: 307px;
+    border-radius: 30px;
+}
+
+.apresentacao{
+    width: 656px;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.apresentacao h1{
+    color: #231FFF;
+    font-size: 40px;
+}
+
+.apresentacao p{
+    font-size: 24px;
+}
+
+.formacao{
+    margin-top: 6%;
+    width: 604px;
+}
+
+.formacao h1{
+    color:#231FFF;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.formacao p{
+    font-size: 24px;
+    margin: 0px;
+}
+
+.ano{
+    width: 140px;
+    height: 30px;
+    border: 1px solid #231FFF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.habilidades{
+    margin-top: 6%;
+}
+
+.habilidade{
+    display: flex;
+    align-items: center;
+}
+
+.habilidade p{
+    font-size: 24px;
+    margin-left: 12px;
+}
+
+.habilidades h1{
+    color:#231FFF;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:1000px){
+
+    nav{
+        justify-content: center;
+    }
+
+    container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apresentacao{
+        width: 90%;
+        margin: 0px;
+    }
+
+    .container2{
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .formacao{
+        width: 100%;
+    }
+}
